@@ -1,0 +1,40 @@
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {566 383}
+	}
+	state {
+		final {yes}
+		coord {936 374}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+	}
+	edge 1 0 {
+		transits {a}
+		offset {0.5235987755982988}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {938 99}
+	}
+	label {
+		text {A.T.KONDAREDDY}
+		font {SansSerif 12 -}
+		coord {938 99}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {939 135}
+	}
+	label {
+		text {192210642}
+		font {SansSerif 12 -}
+		coord {939 135}
+	}
+}
